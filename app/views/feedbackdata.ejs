@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>riktech feedbackdata</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/feed.css">
+	<style>
+	button{
+		border:1px solid black;
+	}
+	</style>
+</head>
+<body>
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table100">
+					<table>
+						<thead>
+							<tr class="table100-head">
+								<th class="column3" style="text-align:left">Name</th>
+								<th class="column4" style="text-align:left">Title</th>
+								<th class="column5" style="text-align:left">Message</th>
+                <th class="column5" style="text-align:left">Delete</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						<% for(var i=0; i < todos.length; i++) { %>
+						   <tr>
+							 <td><%= todos[i].name %></td>
+							 <td><%= todos[i].title %></td>
+							 <td><%= todos[i].message %></td>
+
+							 <td><button type="button" class="btn btn-primary btn-sm" color='black'><a href='delete'>Delete</a></button>
+							 </td>
+						   </tr>
+						<% } %>
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

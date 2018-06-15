@@ -1,0 +1,8 @@
+<!--
+      <table>
+      <% for(var i=0; i < parrot.length; i++) { %>
+         <tr>
+         <td><%= parrot[i].name %></td>
+       </tr>
+      <% } %>
+    </table>-->

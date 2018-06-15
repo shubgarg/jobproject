@@ -1,0 +1,25 @@
+{
+  "friends":
+  [
+{
+"title":"class friend",
+"name":"sourabh",
+"shortname":"sour",
+"summary":"he is a very clever guy"
+},
+
+{
+"title":"class friend",
+"name":"Ravinder saini",
+"shortname":"ravi",
+"summary":"he is a very supportive guy"
+},
+
+{
+"title":"class friend",
+"name":"Abhishek",
+"shortname":"walia",
+"summary":"he is a very helpful guy"
+}
+  ]
+}
